@@ -21,7 +21,7 @@ async function fetchProducts() {
 
 function initCarousel(products) {
   const swiperWrapper = document.querySelector('.swiper-wrapper');
-  swiperWrapper.innerHTML = ''; // Clear previous slides if any
+  swiperWrapper.innerHTML = ''; 
   products.forEach(product => {
     const slide = document.createElement('div');
     slide.className = 'swiper-slide';
